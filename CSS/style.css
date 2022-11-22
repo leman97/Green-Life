@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    width: 150px;
+}
+ul li {
+    list-style: none;    
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 450px;
+    padding: 20px;
+}
+.head {
+    width: 100%;
+    height: 100vh;
+}
+ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+ul li a {
+    color: darkgreen;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+/* map */
+.text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text2 {
+    flex-basis: 50%;
+}
+.box {
+    width: 500px;
+    height: 500px;
+    margin-top: -60px;
+    position: relative;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text1 h1 {
+    font-size: 30px;
+    color: darkgreen;
+}
+.text1 span {
+    font-size: 60px;
+    margin-left: 80px;
+    line-height: 60px;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    background-color: darkgreen;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 130px;
+}
